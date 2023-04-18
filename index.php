@@ -45,7 +45,7 @@
 									<td><?php echo $item->nombre; ?></td>
 									<td><?php echo $item->fecha_nacimiento; ?></td>
 									<td class="text-center">
-										<form action="./actualizar.php" method="POST">
+										<form action="" method="post">
 											<input type="text" hidden value="<?php echo $item->_id ?>" name="id">
 											<button class="btn btn-warning">
 												<i class="fa-solid fa-user-pen"></i>
